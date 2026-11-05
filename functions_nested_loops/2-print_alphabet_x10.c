@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* print_alphabet - entry point
+* print_alphabet_x10 - print alphabet 10 times
 * char (n) = 1 byte
 * each char then represents 1 byte
 * Total: 270 bytes
