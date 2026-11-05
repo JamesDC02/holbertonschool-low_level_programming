@@ -2,9 +2,8 @@
 /**
 * print_alphabet - entry point
 * char (n) = 1 byte
-* each character then represents 1 byte
-* including ("\n")
-* Total: 27 bytes
+* each char then represents 1 byte
+* Total: 270 bytes
 * Return: Always 0 (Success)
 */
 
