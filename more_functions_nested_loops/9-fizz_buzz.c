@@ -1,10 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
-* main - prints 1 - 100
+* main - prints 1 to 100
 * multiples of 3 print Fizz
 * multiples of 5 print Buzz
 * multiples of both print FizzBuzz
+* Return: Always 0 (Success)
 */
 int main(void)
 {
