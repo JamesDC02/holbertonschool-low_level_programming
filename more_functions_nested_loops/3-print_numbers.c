@@ -1,7 +1,6 @@
 #include "main.h"
 /**
 * print_numbers - entry point
-* @n: variable for function
 * char (n) = 1 byte
 */
 
