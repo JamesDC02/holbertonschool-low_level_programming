@@ -1,5 +1,8 @@
 #include <stdio.h>
-
+/**
+* i < n --> i <= n
+* return n --> return sum
+*/
 int sum_to_n(int n)
 {
     int i;
