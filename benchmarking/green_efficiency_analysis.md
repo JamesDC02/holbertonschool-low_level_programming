@@ -9,6 +9,7 @@ The functions "clock\_t", "clock()" and "CLOCKS\_PER\_SEC" were used to start a 
 This was run three times and provided very similar results across the board.
 The averages were then calculated to combine the varied results.
 
+
 ### Observed Performance Differences
 
 The averages of the three executions were:
@@ -24,9 +25,11 @@ REDUCE: 0.000144
 The REDUCE process was the quickest part to execute with an average time that was just over twice the speed of BUILD\_DATA and PROCESS, both of which sat around 0.0003 seconds.
 The average TOTAL never reached above 0.000777 seconds or below 0.000761 seconds. PROCESS has to calculate using / (division) and % (modulo). These both go through more cycles compared to adding, subtracting and multiplying. Because of this, it may be a potential reason as to why it took the longest to execute.
 
+
 ### Relation Between Runtime and Energy Consumption
 
 A fast runtime does not necessarily always equate to efficient energy consumption. However, in this case, as the clock() function is only called 8 times in total, is not wrapped in a loop and is used for macro-timing, the CPU is using very little energy on it.
+
 
 ### Limitations of the Experiment
 
@@ -35,6 +38,7 @@ However for this experiment, with each of the executions producing such similar 
 
 The executions were also all run on one laptop. Using another terminal may change the results of the program's runtimes.
 On modern systems, programs such as this run very quickly, which is also why we might not see much variation or longer times.
+
 
 ### Practical Engineering Takeaway
 
