@@ -43,5 +43,5 @@ On modern systems, programs such as this run very quickly, which is also why we 
 ### Practical Engineering Takeaway
 
 Using the clock() function to benchmark the program's runtimes provided three similar results. Having code that executes quickly is good for performance.
-However, having good, clean and energy efficient code is not only good for performance but, but for the environment as well.
+However, having good, clean and energy efficient code is not only good for performance, but for the environment as well.
 Having well optimised code reduces energy consumption and in turn reduces carbon footprint.
