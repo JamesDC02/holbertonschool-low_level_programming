@@ -43,4 +43,4 @@ Single-pass algorithm time: 0.000105 seconds
 
 ## Relative Difference:
 
-Naive algorithm (2.770657 seconds is 26,138 times slower than Single-pass algorithm (0.000106 seconds).
+Naive algorithm (2.770657 seconds) is 26,138 times slower than Single-pass algorithm (0.000106 seconds).
