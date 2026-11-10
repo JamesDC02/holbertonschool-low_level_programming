@@ -20,13 +20,13 @@ void rev_string(char *s)
 		length++;
 	}
 
-	right = length -1;
+	right = length - 1;
 
 	while (left < right)
 	{
 		temp = s[left];
 		s[left] = s[right];
-		s[right]= temp;
+		s[right] = temp;
 		left++;
 		right--;
 	}
