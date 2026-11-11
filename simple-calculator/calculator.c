@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-* main - calculator menu
+* main - calculator
 * Return: 0 success
 * @menu: calculator menu navigation
 * @numA: user inputs first integer for sum
@@ -14,7 +14,7 @@ int main(void)
 	int menu;
 	int numA;
 	int numB;
-	int result;
+	double result;
 
 	/* welcome */
 	printf("Welcome to the Calculator!\n");
@@ -46,7 +46,7 @@ int main(void)
 		printf("B: ");
 		scanf("%d", &numB);
 		result = numA + numB;
-		printf("Result: %d\n", result);
+		printf("Result: %.0f\n", result);
 		break;
 	/* subtraction with 2 */
 	case 2:
@@ -55,7 +55,7 @@ int main(void)
 		printf("B: ");
 		scanf("%d", &numB);
 		result = numA - numB;
-		printf("Result: %d\n", result);
+		printf("Result: %.0f\n", result);
 		break;
 	/* multiplication with 3 */
 	case 3:
@@ -64,7 +64,7 @@ int main(void)
 		printf("B: ");
 		scanf("%d", &numB);
 		result = numA * numB;
-		printf("Result: %d\n", result);
+		printf("Result: %.0f\n", result);
 		break;
 	/* division with 4 */
 	case 4:
@@ -77,8 +77,13 @@ int main(void)
 		printf("Error: division by zero\n");
 		} else
 		{
-		result = numA / numB;
-		printf("Result: %d\n", result);
+		/**
+		* use (double) in front of numA to print decimals
+		* allows numA to stay as an int
+		* ".2lf" prints 2 decimal places
+		*/
+		result = (double)numA / numB;
+		printf("Result: %.2lf\n", result);
 		}
 		break;
 	/* if input is invalid */
