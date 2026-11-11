@@ -31,11 +31,7 @@ int main(void)
 	scanf("%d", &menu);
 	printf("Choice: %d\n", menu);
 	/* integer A for sum */
-	printf("A: ");
-	scanf("%d", &numA);
 	/* integer B for sum */
-	printf("B: ");
-	scanf("%d", &numB);
 
 	switch(menu)
 	{
@@ -45,27 +41,27 @@ int main(void)
 		break;
 	/* addition with 1 */
 	case 1:
+	printf("A: ");
+	scanf("%d", &numA);
+	printf("B: ");
+	scanf("%d", &numB);
 		result = numA + numB;
 		printf("Result: %d\n", result);
 		break;
 	/* subtraction with 2 */
 	case 2:
-		printf("Choice: %d\n", menu);
 		printf("Bye!\n");
 		break;
 	/* multiplication with 3 */
 	case 3:
-		printf("Choice: %d\n", menu);
 		printf("Bye!\n");
 		break;
 	/* division with 4 */
 	case 4:
-		printf("Choice: %d\n", menu);
 		printf("Bye!\n");
 		break;
 	/* if input is invalid */
 	default:
-		printf("Choice: %d\n", menu);
 		printf("Invalid choice\n");
 		break;
 	}
