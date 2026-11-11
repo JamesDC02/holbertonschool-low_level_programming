@@ -68,6 +68,18 @@ int main(void)
 		break;
 	/* division with 4 */
 	case 4:
+		printf("A: ");
+		scanf("%d", &numA);
+		printf("B: ");
+		scanf("%d", &numB);
+		if (numB == 0)
+		{
+		printf("Error: division by zero\n");
+		} else
+		{
+		result = numA / numB;
+		printf("Result: %d\n", result);
+		}
 		break;
 	/* if input is invalid */
 	default:
