@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
 * main - calculator menu
-*
+* Return: 0 success
 */
 
 int main(void)
@@ -42,4 +42,5 @@ int main(void)
 		printf("%d is not valid\n", menu);
 		break;
 	}
+	return (0);
 }
