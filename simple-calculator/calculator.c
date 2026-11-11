@@ -59,6 +59,12 @@ int main(void)
 		break;
 	/* multiplication with 3 */
 	case 3:
+		printf("A: ");
+		scanf("%d", &numA);
+		printf("B: ");
+		scanf("%d", &numB);
+		result = numA * numB;
+		printf("Result: %d\n", result);
 		break;
 	/* division with 4 */
 	case 4:
