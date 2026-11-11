@@ -37,9 +37,29 @@ int main(void)
 		printf("Choice: %d\n", menu);
 		printf("Bye!\n");
 		break;
-
+	/* addition */
+	case 1:
+		printf("Choice: %d\n", menu);
+		printf("Bye!\n");
+		break;
+	/* subtraction */
+	case 2:
+		printf("Choice: %d\n", menu);
+		printf("Bye!\n");
+		break;
+	/* multiplication */
+	case 3:
+		printf("Choice: %d\n", menu);
+		printf("Bye!\n");
+		break;
+	/* division */
+	case 4:
+		printf("Choice: %d\n", menu);
+		printf("Bye!\n");
+		break;
 	default:
-		printf("%d is not valid\n", menu);
+		printf("Choice: %d\n", menu);
+		printf("Invalid choice\n");
 		break;
 	}
 	return (0);
