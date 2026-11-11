@@ -3,18 +3,18 @@
 /**
 * main - calculator menu
 * Return: 0 success
+* @menu: calculator menu navigation
+* @numA: user inputs first integer for sum
+* @numB: user inputs second integer for sum
+* @result: result of the two integers
 */
 
 int main(void)
 {
 	int menu;
-	/** name: menu
-	* type: int
-	* size: 4 bytes
-	* value: user input
-	* scope: main
-	* address: 0x16da3b1d8
-	*/
+	int numA;
+	int numB;
+	int result;
 
 	/* welcome */
 	printf("Welcome to the Calculator!\n");
@@ -27,36 +27,43 @@ int main(void)
 	printf("4) Divide\n");
 	printf("0) Quit\n");
 
-	/* user enters integer */
+	/* user enters integer for menu */
 	scanf("%d", &menu);
+	printf("Choice: %d\n", menu);
+	/* integer A for sum */
+	printf("A: ");
+	scanf("%d", &numA);
+	/* integer B for sum */
+	printf("B: ");
+	scanf("%d", &numB);
 
 	switch(menu)
 	{
 	/* quit with 0 */
 	case 0:
-		printf("Choice: %d\n", menu);
 		printf("Bye!\n");
 		break;
-	/* addition */
+	/* addition with 1 */
 	case 1:
-		printf("Choice: %d\n", menu);
-		printf("Bye!\n");
+		result = numA + numB;
+		printf("Result: %d\n", result);
 		break;
-	/* subtraction */
+	/* subtraction with 2 */
 	case 2:
 		printf("Choice: %d\n", menu);
 		printf("Bye!\n");
 		break;
-	/* multiplication */
+	/* multiplication with 3 */
 	case 3:
 		printf("Choice: %d\n", menu);
 		printf("Bye!\n");
 		break;
-	/* division */
+	/* division with 4 */
 	case 4:
 		printf("Choice: %d\n", menu);
 		printf("Bye!\n");
 		break;
+	/* if input is invalid */
 	default:
 		printf("Choice: %d\n", menu);
 		printf("Invalid choice\n");
