@@ -2,9 +2,6 @@
 /**
 * cap_string - capitalises words of a string
 * @s: string to capitalise
-* @cap: stops letters from capitalising
-* @i: counts through string
-* @ch: capitalise letter following separator
 * Return:
 */
 
