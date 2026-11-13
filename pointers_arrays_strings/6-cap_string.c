@@ -2,7 +2,7 @@
 /**
 * cap_string - capitalises words of a string
 * @s: string to capitalise
-* Return:
+* Return: new string
 */
 
 char *cap_string(char *s)
