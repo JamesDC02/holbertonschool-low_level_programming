@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdlib.h>
 /**
-* alloc_grid -
-* @width:
-* @height:
-* Return:
+* alloc_grid - returns a pointer to a 2 dimensional array
+* @width: width of array
+* @height: height of array
+* Return: if 0 or NULL, return NULL, otherwise return pointer
 */
 
 int **alloc_grid(int width, int height)
@@ -16,7 +16,7 @@ int **alloc_grid(int width, int height)
 	if (width <= 0 || height <= 0) {
 		return (NULL);
 	}
-	pointer = malloc(sizeof(char) * height);
+	pointer = malloc(sizeof(int) * height);
 	if (pointer == NULL) {
 		return (NULL);
 	}
