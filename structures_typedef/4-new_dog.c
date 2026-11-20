@@ -1,7 +1,9 @@
 #include "dog.h"
 #include <stdlib.h>
 #include <stdio.h>
-
+/*
+* _strdup - duplicates a string
+*/
 char *_strdup(char *str)
 {
 	char *dup;
