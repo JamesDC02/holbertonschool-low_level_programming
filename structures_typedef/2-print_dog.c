@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
-* print_dog -
+* print_dog - prints struct dog
 * @d: pointer to print
 * Return: if NULL, return nothing
 */
