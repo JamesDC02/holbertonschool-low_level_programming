@@ -5,7 +5,7 @@
 * @i: current number
 * Return: 1 if prime, 0 if otherwise
 */
-int _prime_find (int n, int i)
+int _prime_find(int n, int i)
 {
 	if (i * i > n)
 	{
