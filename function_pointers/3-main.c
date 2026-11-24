@@ -2,7 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-* main -
+* main - performs operations
+* @argc: arguments passed to program
+* @argv: pointers to arguments
+* Return: exits 98, 99 or 100 on error or 0 on success
 */
 
 int main(int argc, char *argv[])
