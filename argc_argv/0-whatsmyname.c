@@ -4,6 +4,7 @@
 * main - prints program name
 * @argc: argument count
 * @argv: argument vector
+* Return: 0 on success
 */
 
 int main(int argc, char *argv[])
@@ -11,10 +12,6 @@ int main(int argc, char *argv[])
 	int i;
 
 	i = 0;
-	while (i < argc)
-	{
-		printf("%s\n", argv[i]);
-		i++;
-	}
+	printf("%s\n", argv[i]);
 	return (0);
 }
