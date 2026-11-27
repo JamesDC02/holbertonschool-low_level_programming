@@ -1,12 +1,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
-* main - prints program name
+* _printName - prints program name
 * @argc: argument count
 * @argv: argument vector
 */
 
-int main(int argc, char *argv[])
+int _printName(int argc, char *argv[])
 {
 	int i;
 
